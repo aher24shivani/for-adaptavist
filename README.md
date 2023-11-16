@@ -14,11 +14,15 @@ There are two ways to run this application :
 1. Using python 
 
 You can run the file 'words_count.py' using command in your terminal: 'python word_count.py path/to/your/file.txt' or 'python3 word_count.py path/to/your/file.txt' depending on your python environment.
+
 It will prompt you for file path input. Replace path/to/your/file.txt with the actual path to the file you want to analyze. The program will then print the word count for each word in the specified file, sorted frequency in descending order.
 
 2. Running shell script 
 
 For that the script has to be executable. Make it uexecutable using 'chmod +x words_count.sh'
+
 You can run the file 'words_count.sh' using command in your terminal: './word_count.sh'. 
 
+Again it will prompt you for file path input and print the word count as output.
 
+In any case, if the file path is wrong or if the file does not exists, it will throw an error.
