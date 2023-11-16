@@ -18,6 +18,7 @@ It will prompt you for file path input. Replace path/to/your/file.txt with the a
 
 2. Running shell script 
 
-You can run the file 'words_count.sh' using command in your terminal: './word_count.sh'. For that the script has to be executable. Make it uexecutable using 'chmod +x words_count.sh'
+For that the script has to be executable. Make it uexecutable using 'chmod +x words_count.sh'
+You can run the file 'words_count.sh' using command in your terminal: './word_count.sh'. 
 
 
